@@ -1,7 +1,9 @@
 /*   Medidas de pantallas estandar:   1024, 768, 480, 320.  */
 
 @media screen and (max-width: 1024px){
-
+	.container{
+		padding: 0 1em;
+	}
 }
 
 
@@ -61,10 +63,6 @@
 	{
 		margin: .3em 0;
 	}
-
-
-
-
 }
 
 
@@ -78,6 +76,31 @@
 		margin: -2em .5em .5em;
 		padding: 1em;
 	}
+
+
+
+	.contact{
+		height: auto;
+		padding: 1.5em 0;
+		text-align: center;
+		display: block;
+
+	}
+
+	.contact-form button{
+		margin: 1em auto;
+	}
+
+	.contact-form h3{
+		margin-top: 0;
+	}
+
+	.footer	{
+		display: block;
+		text-align: center;
+		border: 1px solid transparent;
+	}
+
 }
 
 @media screen and (max-width: 320px){
