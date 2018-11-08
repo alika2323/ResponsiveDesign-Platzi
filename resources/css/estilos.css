@@ -160,10 +160,13 @@ figure{
 .project-details,
 .project-imageContainer
 {
-	width: 500px;
+	width: 50%;
 }
 
-
+.project-imageContainer img{
+	max-width: 100%;
+	
+}
 
 
 
