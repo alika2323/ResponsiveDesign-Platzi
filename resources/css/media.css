@@ -1,0 +1,30 @@
+/*   Medidas de pantallas estandar:   1024, 768, 480, 320.  */
+
+@media screen and (max-width: 1024px){
+		body{
+		border: 10px solid red;
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	body{
+		border: 10px solid green;
+	}
+}
+
+
+@media screen and (max-width: 480px){
+	body{
+		border: 10px solid pink;
+	}
+}
+
+@media screen and (max-width: 320px){
+	body{
+		border: 10px solid yellow;
+	}
+}
+
+
+
