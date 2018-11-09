@@ -4,6 +4,32 @@
 	.container{
 		padding: 0 1em;
 	}
+
+
+	.hero{
+		height: auto;
+		position: relative;
+		overflow: hidden;
+		padding: 2em;
+	}
+
+
+	.hero-image{
+		position: absolute;
+		z-index: 1;
+		left:0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+	}
+
+
+	.hero h1{
+		font-size: 2em;
+		z-index: 2;
+	}
+
 }
 
 
@@ -13,6 +39,8 @@
 		height: auto;
 	}
 
+
+
 	.menu ol{
 		flex-direction: column;
 		align-items: center;
@@ -21,6 +49,8 @@
 	.header .logo{
 		text-align: center;
 	}
+
+
 
 	.project{
 		display: block;
@@ -67,6 +97,10 @@
 
 
 @media screen and (max-width: 480px){
+	h1{
+		font-size: 1.5em;
+	}
+
 	.event{
 		width: auto;
 		flex-shrink: initial;
@@ -101,9 +135,18 @@
 		border: 1px solid transparent;
 	}
 
+
 }
 
 @media screen and (max-width: 320px){
+	h1{
+		font-size: 1.2em;
+		background: rgba(0,0,0,.5);
+	}
+
+	.hero{
+		padding: 2em 1em;
+	}
 
 }
 
