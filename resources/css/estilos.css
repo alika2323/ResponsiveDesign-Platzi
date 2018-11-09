@@ -325,5 +325,10 @@ figure{
 	align-items: inherit;
 	height: inherit;
 	flex-wrap: inherit;
-	
+}
+
+
+.html-video{
+	width: 100%;
+	height: auto;
 }
