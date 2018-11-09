@@ -160,14 +160,26 @@
 		</div>
 	</footer>
 	<script>
+		const windowResponsive=window.matchMedia('screen and (max-width: 767px)');
+		windowResponsive.addListener(modeValidation);
 
-		const $menu=document.querySelector('.menu');
-		const $btnBurger=document.getElementById('btnBurger');
 
-		$btnBurger.addEventListener('click', showHide);
+		var $btnBurger=document.getElementById('btnBurger');
+		function modeValidation(event){
+			if (event.matches) {
+				$btnBurger.addEventListener('click', showHide);
+			} else{
+				$btnBurger.removeEventListener('click', showHide);
+			}
+		}
+
+
+
+
 
 
 		function showHide(){
+			const $menu=document.querySelector('.menu');
 			if ($menu.classList.contains('isactive')) {
 				$menu.classList.remove('isactive');
 			} else {
