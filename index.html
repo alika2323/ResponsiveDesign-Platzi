@@ -11,7 +11,7 @@
 </head>
 <body>
 
-	<i class="icon-menu btn-burger"></i>
+	<i class="icon-menu btn-burger" id="btnBurger"></i>
 	<!-- HEADER  -->
 	<header class="header " >
 
@@ -159,6 +159,23 @@
 			</p>
 		</div>
 	</footer>
+	<script>
 
+		const $menu=document.querySelector('.menu');
+		const $btnBurger=document.getElementById('btnBurger');
+
+		$btnBurger.addEventListener('click', showHide);
+
+
+		function showHide(){
+			if ($menu.classList.contains('isactive')) {
+				$menu.classList.remove('isactive');
+			} else {
+				$menu.classList.add('isactive');
+			}	
+		}
+
+
+	</script>
 </body>
 </html>
