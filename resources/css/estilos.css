@@ -1,5 +1,5 @@
 
-/*    GENERALES      */
+/* ICONOS CON FUENTES */
 @font-face {
 	font-family: 'icomoon';
 	src:  url('../fonts/icomoon.eot?rskqeo');
@@ -42,6 +42,8 @@
 	content: "\e900";
 }
 
+
+/*    GENERALES      */
 
 body{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -264,9 +266,6 @@ figure{
 
 
 
-
-
-
 /*    FORMULARIO CONTACTO     */
 
 .contact{
@@ -408,4 +407,24 @@ figure{
 	height: 100%;
 }
 
+
+.btn-burger{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,.8);
+	display: block;
+	color: white;
+	font-size: 2em;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	z-index: 4;
+	left: 5px;
+	top:5px;
+
+
+
+}
 
