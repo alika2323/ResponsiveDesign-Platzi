@@ -30,6 +30,12 @@
 		z-index: 2;
 	}
 
+	.portfolio{
+		padding: 0;
+
+	}
+
+
 }
 
 
@@ -90,7 +96,7 @@
 	}
 
 	.project-details{
-		font-size: 16px;
+		font-size: 14px;
 	}
 	
 
@@ -112,7 +118,8 @@
 	}
 
 	.project-description{
-		font-size: 0.8em;
+		font-size: 1em;
+		
 	}
 
 	.project-curse, 
