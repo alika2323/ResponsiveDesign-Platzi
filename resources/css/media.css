@@ -1,6 +1,6 @@
 /*   Medidas de pantallas estandar:   1024, 768, 480, 320.  */
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
 	.container{
 		padding: 0 1em;
 	}
@@ -40,6 +40,13 @@
 
 
 @media screen and (max-width: 767px){
+
+	.h2{
+		font-size: 1.2em;
+		margin: .5em 0;
+	}
+
+
 	.header{
 		display: block;
 		height: auto;
@@ -97,6 +104,7 @@
 
 	.project-details{
 		font-size: 14px;
+
 	}
 	
 
@@ -119,7 +127,7 @@
 
 	.project-description{
 		font-size: 1em;
-		
+		asdkasgdk		
 	}
 
 	.project-curse, 
@@ -176,16 +184,24 @@
 
 
 
+
 }
 
 @media screen and (max-width: 320px){
 	h1{
 		font-size: 1.2em;
 		background: rgba(0,0,0,.5);
+
 	}
 
 	.hero{
 		padding: 2em 1em;
+	}
+
+	.redes-url{
+		width: 40px;
+		height: 40px;
+		background-size: 100%;	
 	}
 
 }
